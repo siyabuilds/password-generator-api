@@ -48,4 +48,4 @@ const passwordStrength = (password: string): string => {
   }
 };
 
-module.exports = { generatePassword, passwordStrength };
+export { generatePassword, passwordStrength };

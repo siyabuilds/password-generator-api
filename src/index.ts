@@ -1,6 +1,6 @@
-const { passwordStrength, generatePassword } = require("./password");
-const express = require("express");
-const cors = require("cors");
+import { passwordStrength, generatePassword } from "./password.js"; 
+import express from "express";
+import cors from "cors";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
