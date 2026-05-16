@@ -19,7 +19,7 @@
   },
   "keywords": [],
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/siyabuilds/password-generator-api/issues"
   },
