@@ -1,3 +1,5 @@
+import crypto from "crypto";
+
 const generatePassword = (
   length: number,
   useUppercase: boolean,
@@ -16,7 +18,7 @@ const generatePassword = (
 
   let password = "";
   for (let i = 0; i < length; i++) {
-    const randomIndex = Math.floor(Math.random() * characters.length);
+    const randomIndex = crypto.randomInt(0, characters.length);
     password += characters[randomIndex];
   }
 
